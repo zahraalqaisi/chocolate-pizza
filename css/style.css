@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    margin-left: 50px;
+    margin-left: 100px;
     margin-right: 50px;
 }
 header{
@@ -13,6 +13,8 @@ header{
 h1{
 font-family: 'Dancing Script', cursive;
 font-size: xx-large;
+padding: 0;
+    margin: 0;
 }
 #first{
     display: inline-flex;
@@ -23,7 +25,7 @@ font-size: xx-large;
 }
 #first p{
     font-size: xx-small;
-    margin-top: 65px;
+    /* margin-top: 65px; */
     padding-right: 300px;
 }
 
@@ -56,6 +58,11 @@ h2{
    height: 50px;
   
 }
+#print p{
+    display: inline;
+    padding: 40px;
+    margin-bottom: 40px;
+}
 main img{
     margin-left: 100px;
 }
@@ -63,5 +70,60 @@ main img{
     text-align: center;
     display: inline-block;
     width: 70%;
-    margin-left: 150px;
+    margin-left: 100px;
+    text-indent: 50px;
+  text-align: justify;
+}
+
+#fifth div , #fifth img , #fifth button {
+    /* display: inline; */
+    display: inline;
+}
+/* #fifth p{
+    margin-top: 70px;
+    margin-right: 100px;
+}
+
+#fifth h3{
+    margin-left: 40px;
+    position: relative;
+} */
+/* #six{
+    margin-left: 200px;
+    margin-bottom: 50px;
+    width: 65%;
+}
+button {
+background-color: brown;
+height: 50px;
+color: white;
+float: right;
+
+} */
+#bio{
+    display: inline;
+}
+#bio p , #bio h3{
+    display: inline;
+  position: relative;
+}
+#fifth button{
+    background-color: brown; 
+    /* border: none; */
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin-left: 700px; */
+    margin-bottom: 30px;
+}
+#bio p {
+    text-indent: 50px;
+}
+
+
+footer{
+    text-align: center;
 }
