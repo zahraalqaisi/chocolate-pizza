@@ -74,6 +74,9 @@ main img{
     text-indent: 50px;
   text-align: justify;
 }
+#fifth{
+    margin-bottom: 80px;
+}
 
 #fifth div , #fifth img , #fifth button {
     /* display: inline; */
@@ -105,8 +108,16 @@ float: right;
 }
 #bio p , #bio h3{
     display: inline;
-  position: relative;
+
 }
+#bio p{
+     padding: 100px ;
+    /* text-align: center; */
+    margin: 800px;
+    width: 100px;
+
+}
+
 #fifth button{
     background-color: brown; 
     /* border: none; */
@@ -114,16 +125,15 @@ float: right;
     padding: 15px 28px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 16px;
     /* margin-left: 700px; */
-    margin-bottom: 30px;
-}
-#bio p {
-    text-indent: 50px;
+    margin-bottom: 50px;
+    float: right;
 }
 
 
 footer{
     text-align: center;
+    margin-right: 150px;
 }
